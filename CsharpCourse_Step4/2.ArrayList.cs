@@ -17,6 +17,7 @@ namespace CsharpCourse_Step4
 
             Console.WriteLine($"Size of numbers {numbers.Count}");
             Console.WriteLine($"Array List Afetr Adding the Numbers");
+            Console.WriteLine($"Capacity of numbers {numbers.Capacity}");
             foreach (int num in numbers)
             {
                 Console.WriteLine(num);
@@ -39,6 +40,11 @@ namespace CsharpCourse_Step4
             ArrayList list = new ArrayList();
             list.Add(10);
             list.Add(20);
+            list.Add("Hello");
+
+            int firstValue = (int)list[0];
+            int secondValue = (int)list[1];
+            string thirdValue = (string)list[2];
 
         }
     }
