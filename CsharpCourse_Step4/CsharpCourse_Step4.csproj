@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpCourse_Step4.HashSetExample</StartupObject>
+    <StartupObject>CsharpCourse_Step4.TupleExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="4.Dictionary.cs" />
     <Compile Include="5.HashTable.cs" />
     <Compile Include="6.HashSet.cs" />
+    <Compile Include="7.Tuple.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
