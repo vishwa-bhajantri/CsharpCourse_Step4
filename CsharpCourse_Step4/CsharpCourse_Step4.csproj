@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpCourse_Step4.ArrayListExample</StartupObject>
+    <StartupObject>CsharpCourse_Step4.ListExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="1.Array.cs" />
     <Compile Include="2.ArrayList.cs" />
+    <Compile Include="3.List.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
