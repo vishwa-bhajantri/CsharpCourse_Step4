@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CsharpCourse_Step4.ListExample</StartupObject>
+    <StartupObject>CsharpCourse_Step4.HashTableExample</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="1.Array.cs" />
     <Compile Include="2.ArrayList.cs" />
     <Compile Include="3.List.cs" />
+    <Compile Include="4.Dictionary.cs" />
+    <Compile Include="5.HashTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
